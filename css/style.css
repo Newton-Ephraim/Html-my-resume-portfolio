@@ -1,0 +1,86 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.title-text {
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 50px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #00E5E5;
+}
+#title-text {
+  display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size:xx-large;
+color: #b5caff;
+}
+.text-title {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+.pro {
+  color:#00ACBB;
+}
+.profile-img {
+  height: 200px;
+  border-radius: 50%;
+}
+@media (min-width: 900px) and (max-width: 1600px) {
+  body {
+    margin: 0%;
+    padding: 0%;
+  }
+
+}
+.text-body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: oblique;
+  font-weight: 550;
+}
+.hello{
+  color: aqua;
+}
+.plan-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.bi-telephone {
+  border: 30px solid whitesmoke;
+  border-radius: 5px;
+  padding: 0;
+  margin: 0;
+}
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.75rem;
+}
+#gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+.contact {
+  color: whitesmoke;
+}
